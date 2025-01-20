@@ -14,7 +14,7 @@ namespace SegurosAgricolas.Context
         public BeneficiarioDbContext(DbContextOptions<BeneficiarioDbContext> options) : base(options)
         {
         }
-        public DbSet<BeneficiarioEntity> Beneficiarios { get; set; }
+        public virtual DbSet<BeneficiarioEntity> Beneficiarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

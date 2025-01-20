@@ -4,7 +4,7 @@ namespace SegurosAgricolas.Domain.Validator
 {
     public class BeneficiarioValidator
     {
-        public ValidationResult Validate(BeneficiarioEntity entity)
+        public virtual ValidationResult Validate(BeneficiarioEntity entity)
         {
             var errors = new List<string>();
 
